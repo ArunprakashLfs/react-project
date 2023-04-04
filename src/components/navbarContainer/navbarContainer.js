@@ -1,10 +1,17 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import './navbar.styles.scss';
 
 const NavbarContainer = ()=>{
     return(
-        <nav>
-            <Link to={'/home'}>home</Link>
-            <Link to={'/Shop'}>shop</Link>
+        <nav className="link-container">
+            <div className="symbol">
+                React
+            </div>
+            <div>
+                <Link to={'/home'}>home</Link>
+                <Link to={'/Shop'}>shop</Link>
+            </div>
+            
         </nav>
     )
 }

@@ -1,10 +1,13 @@
 .card{
-    min-width: 18rem;
-    max-width: 22rem;
-    flex: 1 1 auto;
     // display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
 }
 .image-container{
     width: 100%;
     height: auto;
+}
+.img{
+    width: 5rem;
+    height: 5rem;
 }

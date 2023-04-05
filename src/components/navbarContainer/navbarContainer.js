@@ -9,10 +9,10 @@ const NavbarContainer = ()=>{
                 <span>React</span>
                 <img src={logo} alt="logo" className="logo-img"></img>
             </div>
-            <div className="link"> 
-                <Link to={'/'}>home</Link>
-                <Link to={'/Shop'}>shop</Link>
-                <Link to={'/signin'}>users</Link>
+            <div > 
+                <Link className="link" to={'/'}>home</Link>
+                <Link className="link" to={'/Shop'}>shop</Link>
+                <Link className="link" to={'/signin'}>users</Link>
             </div>
             
         </nav>

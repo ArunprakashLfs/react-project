@@ -6,12 +6,15 @@
     color: #fff;
     align-content: space-between;
     justify-content: space-between;
-    .link{
-        color: #fff;
+    .link-component{
+        // background-color: #22222296;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        gap: 2rem;
+        gap: 1rem;
+        .link{
+            color: #fff;
+            text-decoration: none;
+        }
     }
     .symbol{
         display: flex;

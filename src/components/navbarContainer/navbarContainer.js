@@ -9,7 +9,7 @@ const NavbarContainer = ()=>{
                 <span>React</span>
                 <img src={logo} alt="logo" className="logo-img"></img>
             </div>
-            <div > 
+            <div  className="link-component"> 
                 <Link className="link" to={'/'}>home</Link>
                 <Link className="link" to={'/Shop'}>shop</Link>
                 <Link className="link" to={'/signin'}>users</Link>

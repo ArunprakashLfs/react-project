@@ -5,6 +5,7 @@ import NavbarContainer from './components/navbarContainer/navbarContainer';
 import { Outlet } from 'react-router-dom';
 import Home from './components/home/home';
 import Shop from './components/shop/shop';
+import Signin from './components/signincomponents/signin'
 
 function App() {
   return(
@@ -16,8 +17,8 @@ function App() {
         element={<Home Data={Data}/>}></Route>
         <Route path='/Shop'
         element={<Shop/>}></Route>
-        <Route path='/signin-page'
-        element={<signin/>}></Route>
+        <Route path='/signin'
+        element={<Signin/>}></Route>
       </Route> 
     </Routes>
   )

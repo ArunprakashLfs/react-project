@@ -19,9 +19,14 @@ const Home =({Data})=>{
                 //     <img src={images[0]} alt={title} className="img"></img>
                 //     </div>
                 // </div>
-                <div className='container' >
-                    <h2>{title}</h2>
-                    <h3>{brand}</h3>
+                <div className='container' style={{backgroundImage: images[0] }}>
+                    <div>
+                        <h2>{title}</h2>
+                        <h3>{brand}</h3>
+                    </div>
+                    <div className='image-container'>
+                        <img src={images[0]} alt={brand} className='img'/>
+                    </div>
                     
                 </div>
             )

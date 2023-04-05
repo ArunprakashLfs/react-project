@@ -10,6 +10,7 @@ const NavbarContainer = ()=>{
             <div className="link"> 
                 <Link to={'/'}>home</Link>
                 <Link to={'/Shop'}>shop</Link>
+                <Link to={'./sign-in'}>signin</Link>
             </div>
             
         </nav>

@@ -12,7 +12,7 @@ function App() {
       <Route path={'/'}
       element={<><NavbarContainer /><Outlet/></>}
       >
-        <Route path='/Home'
+        <Route index
         element={<Home Data={Data}/>}></Route>
         <Route path='/Shop'
         element={<Shop/>}></Route>

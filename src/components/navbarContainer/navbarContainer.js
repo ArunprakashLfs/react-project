@@ -8,7 +8,7 @@ const NavbarContainer = ()=>{
                 React
             </div>
             <div className="link"> 
-                <Link to={'/home'}>home</Link>
+                <Link to={'/'}>home</Link>
                 <Link to={'/Shop'}>shop</Link>
             </div>
             

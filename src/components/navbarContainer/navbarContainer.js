@@ -7,7 +7,7 @@ const NavbarContainer = ()=>{
             <div className="symbol">
                 React
             </div>
-            <div>
+            <div className="link"> 
                 <Link to={'/home'}>home</Link>
                 <Link to={'/Shop'}>shop</Link>
             </div>

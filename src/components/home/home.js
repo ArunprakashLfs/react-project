@@ -21,8 +21,8 @@ const Home =({Data})=>{
                 // </div>
                 <div className='container' style={{backgroundImage: images[0] }}>
                     <div>
-                        <h2>{title}</h2>
-                        <h3>{brand}</h3>
+                        <h2>{brand}</h2>
+                        <h3>{title}</h3>
                     </div>
                     <div className='image-container'>
                         <img src={images[0]} alt={brand} className='img'/>

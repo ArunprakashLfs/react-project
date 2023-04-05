@@ -16,7 +16,9 @@ function App() {
         element={<Home Data={Data}/>}></Route>
         <Route path='/Shop'
         element={<Shop/>}></Route>
-      </Route>
+        <Route path='/signin-page'
+        element={<signin/>}></Route>
+      </Route> 
     </Routes>
   )
 }

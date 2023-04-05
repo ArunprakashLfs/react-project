@@ -3,11 +3,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr)
 }
-.image-container{
-    width: 100%;
+.container{
+    border: 2px solid#222;
+    width: 22rem;
     height: auto;
-}
-.img{
-    width: 5rem;
-    height: 5rem;
+    
 }

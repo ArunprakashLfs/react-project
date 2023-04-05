@@ -6,7 +6,7 @@ const NavbarContainer = ()=>{
     return(
         <nav className="link-container">
             <div className="symbol">
-                react
+                <span>React</span>
                 <img src={logo} alt="logo" className="logo-img"></img>
             </div>
             <div className="link"> 

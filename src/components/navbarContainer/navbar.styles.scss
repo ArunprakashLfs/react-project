@@ -11,8 +11,14 @@
         justify-content: space-between;
         gap: 2rem;
     }
-    .logo-img{
-        width: 16px;
-        height: 16px;
+    .symbol{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .logo-img{
+            color: black;
+            width: 16px;
+            height: 16px;
+        }
     }
 }

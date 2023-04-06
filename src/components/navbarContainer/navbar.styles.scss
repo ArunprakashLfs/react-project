@@ -1,8 +1,11 @@
 .link-container{
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
     padding: 1rem;
     display: flex;
     flex-direction: row;
-    background-color: #22222296;
+    background-color: #222222e0;
     color: #fff;
     align-content: space-between;
     justify-content: space-between;
@@ -20,8 +23,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        text-decoration: none;
+        color: #fff;
         .logo-img{
-            color: black;
             width: 16px;
             height: 16px;
         }
